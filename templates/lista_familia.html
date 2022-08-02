@@ -1,0 +1,10 @@
+<h1> Listado Informacion Familiares </h1>
+
+{% for family in miembro %}
+
+    <h1> Name : {{family.name}}</h1>
+    <h2> Gender : {{family.gender}}</h2>
+    <h2> Birth : {{family.birth}}</h2>
+    <h2> Age : {{family.age}}</h2>
+
+{% endfor %}
